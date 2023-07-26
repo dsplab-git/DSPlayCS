@@ -4,6 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+// for Print Form 
+using static System.Console;
+
 namespace DSPlayCS
 {
     static class HelloWorld
@@ -14,7 +17,12 @@ namespace DSPlayCS
         [STAThread]
         static void Main(string[] args)
         {
+            // Basis Print Form
             Console.WriteLine("Hello World");
+
+            // Print Form
+            WriteLine("Hello World2");
+
             //Application.EnableVisualStyles();
             //Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
