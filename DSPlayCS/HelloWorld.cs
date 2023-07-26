@@ -17,16 +17,26 @@ namespace DSPlayCS
         [STAThread]
         static void Main(string[] args)
         {
+            // Full Name  (Namespace.Class.Method)
+            System.Console.WriteLine("HelloWorld0");
+
             // Basis Print Form
             Console.WriteLine("Hello World");
 
+            
+
             // Print Form
             WriteLine("Hello World2");
+
+            
 
             //Application.EnableVisualStyles();
             //Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
 
         }
+
+
+
     }
 }
